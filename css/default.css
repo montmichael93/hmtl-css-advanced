@@ -1,0 +1,21 @@
+:root {
+    --whitwe: #FFFFFF;
+    --black: #000000;
+    --font-color-base: #666;
+    --font-color-dark: #212529;
+    --font-color-light: #b0aebe;
+    --font-color-link: #57a6ff;
+    --footer: #34314b;
+    --footer-base: #2e2b45;
+    --contrast: var(--font-color-light);
+    --success: #64ecf5;
+    --danger: #ff8b8d;
+    --grad1: #a1ecff;
+    --grad2: #7dbcff;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+}
