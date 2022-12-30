@@ -113,4 +113,5 @@ img {
     .pricing-table {
         max-width: 720px;
     }
+    .testimonial-grid {max-width: 720px;}
 }
