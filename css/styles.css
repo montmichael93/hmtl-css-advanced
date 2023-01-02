@@ -352,6 +352,8 @@ footer .footer-top {
 
 .first-footer {
     background-color: var(--footer);
+    color: var(--font-color-base);
+}
 }
 
 .second-footer {
@@ -364,4 +366,31 @@ footer .footer-bottom {
     background-color: var(--footer-base);
 }
 
+
+footer .footer-col {
+    justify-self: center;
+}
+
+.footer-top h5 {
+    color: var(--white);
+    font-weight: 500;
+    margin-bottom: var(--size-16);
+}
+
+.contact-info li {
+    color: var(--white);
+    margin-bottom: var(--size-18);
+
+}
+
+.contact-info li i {width: var(--size-30);}
+
+.social-icons ul li {
+    display: inline-block;
+    margin-right: var(--size-16);
+}
+
+.social-icons ul li a {
+    color: var(--white);
+    font-size: var(--size-16);
 }
