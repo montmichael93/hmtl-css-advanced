@@ -338,9 +338,30 @@ span.bg-color-6 {background-image: linear-gradient(90deg, #a1ecff 0%, #7bbcff 10
     margin-top: var(--size-16);
 }
 
+
+
 footer .footer-top {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: var(--size-50);
     padding: var(--size-100) 0;
+    background-color: var(--footer);
+    
+    
+}
+
+.first-footer {
+    background-color: var(--footer);
+}
+
+.second-footer {
+    background-color: var(--footer-base);
+}
+
+
+footer .footer-bottom {
+
+    background-color: var(--footer-base);
+}
+
 }
