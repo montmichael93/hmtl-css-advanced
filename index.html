@@ -22,7 +22,7 @@
 
     <div id="pageTop"></div>
 
-    <nav class="navbar nav">
+    <nav id="topNav" class="navbar nav">
         <div class="container">
             <button class="navbar-toggler" aria-expanded="false" aria-controls="navbarDropdown">
                 <span>&#9776;</span>
@@ -455,6 +455,18 @@
 
 
     <script>
+
+
+        const nav = document.getElementById("topNav");
+        window.onscroll = function () {
+            if (window.pageYOffset > 100) {
+                nav.classList.add("sticky");
+            } else {
+                nav.classList.remove("sticky");
+            }
+        }
+
+
         const navButton = document.querySelector('button[aria-expanded]');
         function toggleNav({ target }) {
             const expanded = target.getAttribute('aria-expanded') === 'true' || false;
@@ -463,6 +475,9 @@
 
         navButton.addEventListener('click', toggleNav);
     </script>
+    
+
+   
     
 
 </body>
