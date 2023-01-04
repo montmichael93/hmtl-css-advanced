@@ -452,6 +452,17 @@
             <a id="scrollUp" href="#pageTop">
                 <i class="fa-solid fa-arrows-up-to-line"></i>
             </a>
+
+
+    <script>
+        const navButton = document.querySelector('button[aria-expanded]');
+        function toggleNav({ target }) {
+            const expanded = target.getAttribute('aria-expanded') === 'true' || false;
+            navButton.setAttribute('aria-expanded', !expanded);
+        }
+
+        navButton.addEventListener('click', toggleNav);
+    </script>
     
 
 </body>

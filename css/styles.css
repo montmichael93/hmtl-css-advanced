@@ -8,6 +8,13 @@
     padding: 1rem;
 }
 
+
+.navbar-toggler span {
+    color: var(--white);
+    font-size: var(--size-20);
+    cursor: pointer;
+}
+
 [aria-controls="navbarDropdown"] {
     display: none;
 }
