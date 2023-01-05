@@ -409,6 +409,7 @@ footer .footer-bottom {
 
 footer .footer-col {
     justify-self: center;
+    max-width: 250px;
 }
 
 .footer-top h5 {
